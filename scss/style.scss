@@ -1,0 +1,51 @@
+$primary : rgba(68,70,200,255);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+a {
+    color: black;
+    opacity: 80%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@media (min-width: 360px) {
+    .hero {
+        height: 450px;
+    }
+
+    .fiber-head {
+        width: 100%;
+    }
+
+    .signup {
+        height: 250px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .fiber-head {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .fiber-head {
+        width: 50%;
+        line-height: 50px;
+    }
+
+    .signup {
+        height: 400px;
+    }
+}
+
+.btn {
+    cursor: pointer !important;
+}
